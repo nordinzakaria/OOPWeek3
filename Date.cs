@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
- public class Transaction
+   public class Date
     {
-    public float val;
-    public DateTime date;
+    public int year;
+    public int day;
+    public int month;
     }
