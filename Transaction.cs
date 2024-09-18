@@ -6,6 +6,15 @@ using System.Threading.Tasks;
 
  public class Transaction
     {
-    public float val;
-    public DateTime date;
+    private float val;
+    private DateTime date;
+
+    // setter 
+    public void setVal(float val) { this.val = val; }
+    public void setDate(DateTime date) { this.date = date; }
+    
+    // getter
+    public float getVal() { return val; }
+    public DateTime getDate() { return date; }
+
     }
